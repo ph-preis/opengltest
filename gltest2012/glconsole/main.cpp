@@ -1,4 +1,4 @@
-														 #include <stdlib.h>
+#include <stdlib.h>
 #include <math.h>
 
 #ifdef __APPLE__
@@ -7,6 +7,7 @@
 #include <GL/glut.h>
 #endif
 
+#include "TextureManager.h"
 // angle of rotation for the camera direction
 float angle = 0.0f;
 

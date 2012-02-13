@@ -60,6 +60,7 @@
 			/>
 			<Tool
 				Name="VCLinkerTool"
+				AdditionalDependencies="FreeImage.lib"
 				LinkIncremental="2"
 				GenerateDebugInformation="true"
 				SubSystem="1"
@@ -171,7 +172,15 @@
 			UniqueIdentifier="{4FC737F1-C7A5-4376-A066-2A32D752A2FF}"
 			>
 			<File
-				RelativePath="..\gltest2012\main.cpp"
+				RelativePath=".\main.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\TextureManager.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\triangle.cpp"
 				>
 			</File>
 		</Filter>
@@ -180,6 +189,18 @@
 			Filter="h;hpp;hxx;hm;inl;inc;xsd"
 			UniqueIdentifier="{93995380-89BD-4b04-88EB-625FBE52EBFB}"
 			>
+			<File
+				RelativePath=".\FreeImage.h"
+				>
+			</File>
+			<File
+				RelativePath=".\TextureManager.h"
+				>
+			</File>
+			<File
+				RelativePath=".\triangle.h"
+				>
+			</File>
 		</Filter>
 		<Filter
 			Name="Ressourcendateien"
